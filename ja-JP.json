@@ -355,7 +355,7 @@
     "equatorialGrid": "赤道座標",
     "azimuthalGrid": "地平座標",
     "lightPollution": "光害",
-    "lightPollutionLevel": "ボrtel {{n}}",
+    "lightPollutionLevel": "光害 {{n}}",
     "timeSettings": "時間",
     "setTime": "時刻を設定",
     "resetTime": "時刻をリセット",
@@ -467,7 +467,8 @@
     },
     "languageOptions": {
       "zhCN": "简体中文",
-      "enUS": "English"
+      "enUS": "English",
+      "jaJP": "日本語"
     }
   },
   "pulseCalculator": {

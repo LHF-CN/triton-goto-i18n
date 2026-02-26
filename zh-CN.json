@@ -560,6 +560,7 @@
     "delete": "删除固件",
     "importLocal": "导入本地固件",
     "selectFile": "选择文件",
+    "placeholderSelectFile": "请选择固件文件",
     "flash": "刷写固件",
     "flashModalTitle": "固件刷写",
     "name": "固件名称",

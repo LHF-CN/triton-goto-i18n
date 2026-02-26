@@ -550,6 +550,7 @@
     "delete": "削除",
     "importLocal": "ローカルファームウェアをインポート",
     "selectFile": "ファイルを選択",
+    "placeholderSelectFile": "ファームウェアファイルを選択してください",
     "flash": "ファームウェアをフラッシュ",
     "flashModalTitle": "ファームウェアをフラッシュ",
     "name": "ファームウェア名",

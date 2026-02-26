@@ -560,6 +560,7 @@
     "delete": "Delete",
     "importLocal": "Import Local Firmware",
     "selectFile": "Select File",
+    "placeholderSelectFile": "Select firmware file",
     "flash": "Flash Firmware",
     "flashModalTitle": "Flash Firmware",
     "name": "Firmware Name",

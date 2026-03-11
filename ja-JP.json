@@ -509,7 +509,7 @@
     "step3Title": "デバイスを接続",
     "step3Desc": "デバイスの準備ができたら、ボタンをクリックして再接続してください。",
     "step4Title": "設定を確認",
-    "step4Desc": "新しい設定が有効인지 확인してください。",
+    "step4Desc": "新しい設定の有効性を確認。",
     "statusWaiting": "待機中",
     "statusVerifying": "確認中",
     "statusCompleted": "完了",

@@ -36,6 +36,9 @@
 
   "connection": {
     "deviceInfo": "Device Info",
+    "currentPointing": "Current Pointing",
+    "geographicInfo": "Geographic Info",
+    "deviceStatusCard": "Device Status",
     "ra": "Right Ascension",
     "dec": "Declination",
     "altitude": "Altitude",
@@ -305,6 +308,7 @@
     "polarStart": "Start calibration",
     "polarExitConfirmTitle": "Exit polar alignment?",
     "polarExitConfirmMessage": "Are you sure you want to exit polar alignment?",
+    "polarFinalStepHint": "Adjust the latitude base azimuth and altitude bolts on the equatorial mount to center the calibration star in the eyepiece or camera field, then tap Calibrate to finish.",
     "calibration3StarSelectFirst": "Select the first calibration star on the star map",
     "calibration3StarSelectSecond": "Select the second calibration star on the star map",
     "calibration3StarSelectThird": "Select the third calibration star on the star map",
@@ -469,6 +473,7 @@
     "downloadingUpdate": "Downloading installer",
     "downloadComplete": "Download complete",
     "downloadSavedTo": "Installer saved to",
+    "install": "Install",
     "openDownloadDir": "Open folder",
     "notify": {
       "openLinkFailed": "Failed to open link"
@@ -568,6 +573,9 @@
     "name": "Firmware Name",
     "selectPort": "Select Port",
     "flashSpeed": "Baud Rate",
+    "flashMode": "Flash Mode",
+    "flashModeStandard": "Standard",
+    "flashModeSerialPassthrough": "Serial Passthrough",
     "taskProgress": "Progress",
     "notStarted": "Not Started",
     "erase": "Erase",
@@ -578,7 +586,18 @@
     "close": "Close",
     "noChangelog": "No changelog available",
     "noChangelogZh": "No Chinese changelog available",
-    "noChangelogEn": "No English changelog available"
+    "noChangelogEn": "No English changelog available",
+    "viewCommandOutput": "View command output",
+    "commandOutputTitle": "Command output",
+    "refreshOutput": "Refresh",
+    "copyOutput": "Copy",
+    "copiedToClipboard": "Copied to clipboard",
+    "nothingToCopy": "Nothing to copy",
+    "copyFailed": "Copy failed",
+    "noOutputYet": "No output yet",
+    "outputLoadFailed": "Failed to load output",
+    "passthroughOptions": "Serial passthrough options",
+    "chipEsp8266": "Specify chip as ESP8266"
   },
 
   "driver": {

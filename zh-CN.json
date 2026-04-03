@@ -36,6 +36,9 @@
 
   "connection": {
     "deviceInfo": "设备信息",
+    "currentPointing": "当前指向",
+    "geographicInfo": "地理信息",
+    "deviceStatusCard": "设备状态",
     "ra": "赤经",
     "dec": "赤纬",
     "altitude": "高度",
@@ -305,6 +308,7 @@
     "polarStart": "开始校准",
     "polarExitConfirmTitle": "确认退出极轴校准",
     "polarExitConfirmMessage": "确定要退出极轴校准吗？",
+    "polarFinalStepHint": "调整赤道仪纬度座的水平和俯仰角螺丝，将校准星移动至望远镜视场中心后，点击校准按钮完成校准",
     "calibration3StarSelectFirst": "请在星图上选择第一颗校准星",
     "calibration3StarSelectSecond": "请在星图上选择第二颗校准星",
     "calibration3StarSelectThird": "请在星图上选择第三颗校准星",
@@ -347,7 +351,7 @@
     "calibration3StarPhaseSummary": "汇总",
     "calibration3StarPhaseGoto": "GOTO",
     "calibrationZeroRequiredDesc": "校准设备需要从零位开始，请选择返回零位或将当前指向位置设置为零位。",
-    "calibration1And3StarRequireHome": "1 星/3 星校准需从零位开始",
+    "calibration1And3StarRequireHome": "3 星校准需从零位开始",
     "calibrationRequiresHome": "请先返回零位",
     "calibrationGotoHome": "返回零位",
     "calibrationSetHome": "重设零位",
@@ -469,6 +473,7 @@
     "downloadingUpdate": "正在下载安装包",
     "downloadComplete": "下载完成",
     "downloadSavedTo": "安装包已保存至",
+    "install": "安装",
     "openDownloadDir": "打开所在文件夹",
     "notify": {
       "openLinkFailed": "打开链接失败"
@@ -568,6 +573,9 @@
     "name": "固件名称",
     "selectPort": "选择端口",
     "flashSpeed": "刷写速度",
+    "flashMode": "刷写模式",
+    "flashModeStandard": "标准模式",
+    "flashModeSerialPassthrough": "串口透传模式",
     "taskProgress": "任务进度",
     "notStarted": "未开始",
     "erase": "擦除",
@@ -578,7 +586,18 @@
     "close": "关闭",
     "noChangelog": "暂无更新日志",
     "noChangelogZh": "暂无中文更新日志",
-    "noChangelogEn": "暂无英文更新日志"
+    "noChangelogEn": "暂无英文更新日志",
+    "viewCommandOutput": "查看命令行输出",
+    "commandOutputTitle": "命令行输出",
+    "refreshOutput": "刷新",
+    "copyOutput": "复制",
+    "copiedToClipboard": "已复制到剪贴板",
+    "nothingToCopy": "暂无内容可复制",
+    "copyFailed": "复制失败",
+    "noOutputYet": "暂无输出",
+    "outputLoadFailed": "获取输出失败",
+    "passthroughOptions": "串口透传选项",
+    "chipEsp8266": "指定芯片为 ESP8266"
   },
 
   "driver": {

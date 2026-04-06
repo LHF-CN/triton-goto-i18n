@@ -423,6 +423,16 @@
     "driverTypeO": "ODrive",
     "pulsesPerDegree": "パルス/度",
     "microstep": "マイクロステップ",
+    "microstepGoto": "",
+    "tmcCurrentStandstill": "",
+    "tmcCurrentTracking": "",
+    "tmcCurrentGoto": "",
+    "axisConfigLoading": "",
+    "tmcDecayTracking": "",
+    "tmcDecayGoto": "",
+    "tmcDecayModeSpreadCycle": "",
+    "tmcDecayModeStealthChop": "",
+    "tmcCurrentMaPlaceholder": "mA",
     "motorReverse": "逆回転",
     "pulseCalculator": "パルス計算機",
     "debugMode": "デバッグ",
@@ -432,6 +442,7 @@
     "sendBtn": "送信",
     "startCalc": "計算",
     "notify": {
+      "advancedFirmwareNotSupported": "",
       "enableAdvancedFirst": "先に詳細設定を有効にしてください",
       "enterCommand": "コマンドを入力してください",
       "noChanges": "変更はありませんでした",
@@ -441,6 +452,8 @@
       "leaveConfirmTitle": "ページを離れますか？",
       "leaveConfirmMessage": "保存されていない変更があります。離れますか？",
       "saveConfirmTitle": "設定を保存しますか？",
+      "disableAdvancedConfirmTitle": "",
+      "disableAdvancedConfirmMessage": "",
       "cancel": "キャンセル",
       "confirm": "OK"
     }

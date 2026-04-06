@@ -428,6 +428,16 @@
     "driverTypeO": "ODrive",
     "pulsesPerDegree": "Pulses/Degree",
     "microstep": "Microstep",
+    "microstepGoto": "",
+    "tmcCurrentStandstill": "",
+    "tmcCurrentTracking": "",
+    "tmcCurrentGoto": "",
+    "axisConfigLoading": "",
+    "tmcDecayTracking": "",
+    "tmcDecayGoto": "",
+    "tmcDecayModeSpreadCycle": "",
+    "tmcDecayModeStealthChop": "",
+    "tmcCurrentMaPlaceholder": "mA",
     "motorReverse": "Reverse",
     "pulseCalculator": "Pulse Calculator",
     "debugMode": "Debug",
@@ -437,6 +447,7 @@
     "sendBtn": "Send",
     "startCalc": "Calculate",
     "notify": {
+      "advancedFirmwareNotSupported": "",
       "enableAdvancedFirst": "Please enable advanced config first",
       "enterCommand": "Please enter a command",
       "noChanges": "No changes were made",
@@ -446,6 +457,8 @@
       "leaveConfirmTitle": "Leave page?",
       "leaveConfirmMessage": "You have unsaved changes. Leave without saving?",
       "saveConfirmTitle": "Save configuration?",
+      "disableAdvancedConfirmTitle": "",
+      "disableAdvancedConfirmMessage": "",
       "cancel": "Cancel",
       "confirm": "OK"
     }

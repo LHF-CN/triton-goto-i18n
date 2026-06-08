@@ -59,6 +59,8 @@
     "errorInfo": "错误信息",
     "viewInSearch": "在星图中查看",
     "connectionConfig": "连接配置",
+    "collapseConnectCard": "收起连接配置",
+    "expandConnectCard": "展开连接配置",
     "usb": "USB",
     "wifi": "WIFI",
     "connectionMode": "连接模式",

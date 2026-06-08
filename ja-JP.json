@@ -58,6 +58,8 @@
     "errorInfo": "エラー情報",
     "viewInSearch": "星図で表示",
     "connectionConfig": "接続設定",
+    "collapseConnectCard": "接続設定を折りたたむ",
+    "expandConnectCard": "接続設定を展開",
     "usb": "USB",
     "wifi": "WIFI",
     "connectionMode": "接続モード",

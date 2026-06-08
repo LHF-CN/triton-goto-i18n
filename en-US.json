@@ -59,6 +59,8 @@
     "errorInfo": "Error Info",
     "viewInSearch": "View in Sky Map",
     "connectionConfig": "Connection",
+    "collapseConnectCard": "Collapse connection settings",
+    "expandConnectCard": "Expand connection settings",
     "usb": "USB",
     "wifi": "Wi-Fi",
     "connectionMode": "Mode",

@@ -11,7 +11,6 @@
       "settings": "Settings",
       "control": "Control",
       "search": "GoTo",
-      "modelViewer": "3D Model",
       "config": "Advanced",
       "driver": "Driver",
       "firmware": "Firmware",
@@ -557,14 +556,6 @@
       "cancel": "Cancel",
       "confirm": "OK"
     }
-  },
-
-  "modelViewer": {
-    "title": "3D Model Viewer",
-    "modelFile": "Model file",
-    "loadModel": "Load model",
-    "placeholderUrl": "../../assets/model/telescope7.glb",
-    "enterModelPath": "Please enter a model path"
   },
 
   "about": {

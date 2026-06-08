@@ -31,6 +31,12 @@
     "channel": {
       "beta": "BETA",
       "alpha": "ALPHA"
+    },
+    "contextMenu": {
+      "copy": "Copy",
+      "cut": "Cut",
+      "paste": "Paste",
+      "selectAll": "Select All"
     }
   },
 

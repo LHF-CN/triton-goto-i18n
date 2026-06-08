@@ -31,6 +31,12 @@
     "channel": {
       "beta": "公测版",
       "alpha": "内测版"
+    },
+    "contextMenu": {
+      "copy": "复制",
+      "cut": "剪切",
+      "paste": "粘贴",
+      "selectAll": "全选"
     }
   },
 

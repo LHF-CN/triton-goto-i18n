@@ -725,6 +725,15 @@
 
   "firmware": {
     "listTitle": "Online Firmware List",
+    "pickerTitle": "Firmware Update",
+    "pickerDesc": "Select a firmware type to flash, or import firmware from a local file",
+    "mainFirmware": "Main Controller Firmware",
+    "wifiFirmware": "Wi-Fi Firmware",
+    "handFirmware": "Hand Controller Firmware",
+    "mainListTitle": "Main Controller Firmware",
+    "wifiListTitle": "Wi-Fi Firmware",
+    "handListTitle": "Hand Controller Firmware",
+    "back": "Back",
     "openDownloadDir": "Open Download Folder",
     "openDownloadDirFailed": "Failed to open download folder",
     "refreshList": "Refresh List",
@@ -737,6 +746,8 @@
     "download": "Download",
     "delete": "Delete",
     "importLocal": "Import Local Firmware",
+    "dropHint": "Drag and drop a .bin firmware file here",
+    "dropOr": "or",
     "selectFile": "Select File",
     "placeholderSelectFile": "Select firmware file",
     "flash": "Flash Firmware",
@@ -793,6 +804,7 @@
     "confirmErase": "Erase firmware?\n\nPort: {{port}}\nBaud: {{baudRate}}\n\nWarning: This will erase all firmware on the device!",
     "notify": {
       "binOnly": "Only .bin firmware files are supported",
+      "fileNotFound": "File not found. Check the path and try again",
       "selectFileFailedWithReason": "Failed to select file: {{reason}}",
       "loadListFailed": "Failed to load firmware list",
       "openChangelogFailedWithReason": "Failed to open changelog: {{reason}}",
@@ -826,6 +838,13 @@
 
   "driver": {
     "listTitle": "Online Driver List",
+    "usbDriver": "USB Driver",
+    "ascomDriver": "ASCOM Driver",
+    "pickerTitle": "Driver Installation",
+    "pickerDesc": "Before connecting, install the required USB and ASCOM drivers",
+    "usbListTitle": "USB Drivers",
+    "ascomListTitle": "ASCOM Drivers",
+    "back": "Back",
     "openDownloadDir": "Open Download Folder",
     "openDownloadDirFailed": "Failed to open download folder",
     "refreshList": "Refresh List",

@@ -163,8 +163,10 @@
     "placeholder": {
       "longitudeDeg": "0~180°",
       "longitudeMin": "0~59'",
+      "longitudeSec": "0~59\"",
       "latitudeDeg": "0~90°",
       "latitudeMin": "0~59'",
+      "latitudeSec": "0~59\"",
       "altitudeLimit": "60~90°",
       "horizonLimit": "±30°",
       "meridianLimit": "±90°"
@@ -172,8 +174,10 @@
     "field": {
       "longitudeDeg": "Longitude (degrees)",
       "longitudeMin": "Longitude (minutes)",
+      "longitudeSec": "Longitude (seconds)",
       "latitudeDeg": "Latitude (degrees)",
-      "latitudeMin": "Latitude (minutes)"
+      "latitudeMin": "Latitude (minutes)",
+      "latitudeSec": "Latitude (seconds)"
     },
     "edit": "Edit",
     "save": "Save",
@@ -207,15 +211,19 @@
       "meridianFlipSent": "Meridian flip command sent",
       "fillLongitudeDeg": "Please enter longitude (degrees)",
       "fillLongitudeMin": "Please enter longitude (minutes)",
+      "fillLongitudeSec": "Please enter longitude (seconds)",
       "selectLongitudeDir": "Please select longitude direction (E/W)",
       "fillLatitudeDeg": "Please enter latitude (degrees)",
       "fillLatitudeMin": "Please enter latitude (minutes)",
+      "fillLatitudeSec": "Please enter latitude (seconds)",
       "selectLatitudeDir": "Please select latitude direction (N/S)",
       "selectTimezone": "Please select timezone",
       "longitudeDegRange": "Longitude (degrees) must be 0~180",
       "longitudeMinRange": "Longitude (minutes) must be 0~59",
+      "longitudeSecRange": "Longitude (seconds) must be 0~59",
       "latitudeDegRange": "Latitude (degrees) must be 0~90",
       "latitudeMinRange": "Latitude (minutes) must be 0~59",
+      "latitudeSecRange": "Latitude (seconds) must be 0~59",
       "enterAltitudeLimit": "Please enter altitude limit",
       "enterHorizonLimit": "Please enter horizon limit",
       "selectHorizonSign": "Please select horizon limit sign",

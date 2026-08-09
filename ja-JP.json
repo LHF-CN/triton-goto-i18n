@@ -161,8 +161,10 @@
     "placeholder": {
       "longitudeDeg": "0~180°",
       "longitudeMin": "0~59'",
+      "longitudeSec": "0~59\"",
       "latitudeDeg": "0~90°",
       "latitudeMin": "0~59'",
+      "latitudeSec": "0~59\"",
       "altitudeLimit": "60~90°",
       "horizonLimit": "±30°",
       "meridianLimit": "±90°"
@@ -170,8 +172,10 @@
     "field": {
       "longitudeDeg": "経度（度）",
       "longitudeMin": "経度（分）",
+      "longitudeSec": "経度（秒）",
       "latitudeDeg": "緯度（度）",
-      "latitudeMin": "緯度（分）"
+      "latitudeMin": "緯度（分）",
+      "latitudeSec": "緯度（秒）"
     },
     "edit": "編集",
     "save": "保存",
@@ -205,15 +209,19 @@
       "meridianFlipSent": "子午線反転コマンドを送信しました",
       "fillLongitudeDeg": "経度（度）を入力してください",
       "fillLongitudeMin": "経度（分）を入力してください",
+      "fillLongitudeSec": "経度（秒）を入力してください",
       "selectLongitudeDir": "経度方向（E/W）を選択してください",
       "fillLatitudeDeg": "緯度（度）を入力してください",
       "fillLatitudeMin": "緯度（分）を入力してください",
+      "fillLatitudeSec": "緯度（秒）を入力してください",
       "selectLatitudeDir": "緯度方向（N/S）を選択してください",
       "selectTimezone": "タイムゾーンを選択してください",
       "longitudeDegRange": "経度の度は0〜180の範囲で入力してください",
       "longitudeMinRange": "経度の分は0〜59の範囲で入力してください",
+      "longitudeSecRange": "経度の秒は0〜59の範囲で入力してください",
       "latitudeDegRange": "緯度の度は0〜90の範囲で入力してください",
       "latitudeMinRange": "緯度の分は0〜59の範囲で入力してください",
+      "latitudeSecRange": "緯度の秒は0〜59の範囲で入力してください",
       "enterAltitudeLimit": "高度角制限値を入力してください",
       "enterHorizonLimit": "地平線制限値を入力してください",
       "selectHorizonSign": "地平線制限の符号を選択してください",

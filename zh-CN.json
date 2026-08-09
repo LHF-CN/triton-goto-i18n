@@ -163,8 +163,10 @@
     "placeholder": {
       "longitudeDeg": "0~180°",
       "longitudeMin": "0~59'",
+      "longitudeSec": "0~59\"",
       "latitudeDeg": "0~90°",
       "latitudeMin": "0~59'",
+      "latitudeSec": "0~59\"",
       "altitudeLimit": "60~90°",
       "horizonLimit": "±30°",
       "meridianLimit": "±90°"
@@ -172,8 +174,10 @@
     "field": {
       "longitudeDeg": "经度（度）",
       "longitudeMin": "经度（分）",
+      "longitudeSec": "经度（秒）",
       "latitudeDeg": "纬度（度）",
-      "latitudeMin": "纬度（分）"
+      "latitudeMin": "纬度（分）",
+      "latitudeSec": "纬度（秒）"
     },
     "edit": "编辑",
     "save": "保存",
@@ -207,15 +211,19 @@
       "meridianFlipSent": "中天翻转指令已发送",
       "fillLongitudeDeg": "请填写经度（度）",
       "fillLongitudeMin": "请填写经度（分）",
+      "fillLongitudeSec": "请填写经度（秒）",
       "selectLongitudeDir": "请选择经度方向（E/W）",
       "fillLatitudeDeg": "请填写纬度（度）",
       "fillLatitudeMin": "请填写纬度（分）",
+      "fillLatitudeSec": "请填写纬度（秒）",
       "selectLatitudeDir": "请选择纬度方向（N/S）",
       "selectTimezone": "请选择时区",
       "longitudeDegRange": "经度（度）必须在 0~180 之间",
       "longitudeMinRange": "经度（分）必须在 0~59 之间",
+      "longitudeSecRange": "经度（秒）必须在 0~59 之间",
       "latitudeDegRange": "纬度（度）必须在 0~90 之间",
       "latitudeMinRange": "纬度（分）必须在 0~59 之间",
+      "latitudeSecRange": "纬度（秒）必须在 0~59 之间",
       "enterAltitudeLimit": "请输入高度角限位",
       "enterHorizonLimit": "请输入地平线限位",
       "selectHorizonSign": "请选择地平线限位符号",

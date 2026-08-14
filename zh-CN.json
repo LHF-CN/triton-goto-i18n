@@ -305,7 +305,7 @@
       "moving": "移动失败",
       "returnZeroConfirm": "是否将设备移至零位？",
       "confirmAction": "确认操作",
-      "returnZeroing": "正在返回零位",
+      "returnZeroing": "望远镜正在返回零位",
       "returnZeroDone": "望远镜已返回零位",
       "resetZeroConfirm": "是否将当前指向位置设置为零位？",
       "resetZeroing": "正在重设零位",

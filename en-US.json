@@ -305,7 +305,7 @@
       "moving": "Move failed",
       "returnZeroConfirm": "Move mount to home position?",
       "confirmAction": "Confirm",
-      "returnZeroing": "Finding home",
+      "returnZeroing": "Mount is returning to the home position",
       "returnZeroDone": "Mount at home",
       "resetZeroConfirm": "Set current position as home?",
       "resetZeroing": "Setting home",

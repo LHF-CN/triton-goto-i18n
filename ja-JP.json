@@ -302,7 +302,7 @@
       "moving": "移動に失敗しました",
       "returnZeroConfirm": "機器をホーム位置に移動しますか？",
       "confirmAction": "操作を確認",
-      "returnZeroing": "ホーム位置へ戻っています",
+      "returnZeroing": "望遠鏡はホーム位置へ戻っています",
       "returnZeroDone": "望遠鏡はホーム位置に戻りました",
       "resetZeroConfirm": "現在の指向位置をホーム位置に設定しますか？",
       "resetZeroing": "ホーム位置を再設定しています",

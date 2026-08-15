@@ -82,6 +82,7 @@
     "connecting": "正在连接",
     "disconnecting": "断开中",
     "driverInstall": "驱动安装",
+    "connectionTools": "连接工具",
     "placeholder": {
       "port": "选择端口",
       "baudRate": "9600",
@@ -345,6 +346,8 @@
     "dec": "赤纬",
     "alt": "高度",
     "az": "方位",
+    "zoomIn": "放大星图",
+    "zoomOut": "缩小星图",
     "visibilityCurve": "可见性曲线",
     "visibilityNow": "当前",
     "searchBtn": "搜索",

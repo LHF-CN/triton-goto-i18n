@@ -82,6 +82,7 @@
     "connecting": "Connecting",
     "disconnecting": "Disconnecting",
     "driverInstall": "Install Driver",
+    "connectionTools": "Connection Tools",
     "placeholder": {
       "port": "Select port",
       "baudRate": "9600",
@@ -345,6 +346,8 @@
     "dec": "DEC",
     "alt": "ALT",
     "az": "AZ",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
     "visibilityCurve": "Visibility",
     "visibilityNow": "Now",
     "searchBtn": "Search",

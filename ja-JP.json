@@ -81,6 +81,7 @@
     "connecting": "接続中",
     "disconnecting": "切断中",
     "driverInstall": "ドライバーインストール",
+    "connectionTools": "接続ツール",
     "placeholder": {
       "port": "ポートを選択",
       "baudRate": "9600",
@@ -341,6 +342,8 @@
     "dec": "赤緯",
     "alt": "高度",
     "az": "方位",
+    "zoomIn": "星図を拡大",
+    "zoomOut": "星図を縮小",
     "visibilityCurve": "可視性曲線",
     "visibilityNow": "現在",
     "searchBtn": "検索",

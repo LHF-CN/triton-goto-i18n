@@ -188,6 +188,7 @@
     "saveLimit": "Save Limits",
     "setLocation": "Set Location",
     "syncTime": "Sync Time",
+    "dstSuffix": "DST {{offset}}",
     "notify": {
       "locating": "Locating…",
       "locationFetched": "Location fetched. Please save location.",

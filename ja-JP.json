@@ -186,6 +186,7 @@
     "saveLimit": "リミットを保存",
     "setLocation": "位置合わせ",
     "syncTime": "同期",
+    "dstSuffix": "DST {{offset}}",
     "notify": {
       "locating": "位置合わせ中",
       "locationFetched": "位置合わせに成功しました。位置情報を保存してください",

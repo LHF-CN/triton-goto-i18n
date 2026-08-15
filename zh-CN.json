@@ -188,6 +188,7 @@
     "saveLimit": "保存限位",
     "setLocation": "定位",
     "syncTime": "同步",
+    "dstSuffix": "DST {{offset}}",
     "notify": {
       "locating": "正在定位…",
       "locationFetched": "定位成功，请保存位置信息",

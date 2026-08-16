@@ -440,7 +440,7 @@
     "polarTotalDeviation": "総偏差",
     "polarNoAdjustment": "調整不要",
     "polarFinishedTitle": "極軸較正完了",
-    "polarFinishedMessage": "極軸較正が完了しました。最高の導入精度を得るため、星のアライメントを再実行してください。",
+    "polarFinishedMessage": "極軸較正が完了しました。誤差が大きい場合は、3スターアライメントを再実行できます。",
     "polarExitConfirmTitle": "極軸較正を終了しますか？",
     "polarExitConfirmMessage": "極軸較正を終了しますか？",
     "polarStep2Title": "GOTO 完了後、下のボタンで較正を開始してください。",

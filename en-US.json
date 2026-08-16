@@ -444,7 +444,7 @@
     "polarTotalDeviation": "Total deviation",
     "polarNoAdjustment": "No adjustment needed",
     "polarFinishedTitle": "Polar Alignment Complete",
-    "polarFinishedMessage": "Polar alignment is complete. Run star alignment again for the best pointing accuracy.",
+    "polarFinishedMessage": "Polar alignment is complete. If the error remains large, you can run three-star alignment again.",
     "polarExitConfirmTitle": "Exit polar alignment?",
     "polarExitConfirmMessage": "Are you sure you want to exit polar alignment?",
     "polarStep2Title": "After GoTo completes, select the button below to start alignment.",

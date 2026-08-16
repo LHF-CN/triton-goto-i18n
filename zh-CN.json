@@ -444,7 +444,7 @@
     "polarTotalDeviation": "总偏差",
     "polarNoAdjustment": "无需调整",
     "polarFinishedTitle": "极轴校准完成",
-    "polarFinishedMessage": "极轴校准已完成，请重新进行星对齐以获得最佳指向精度。",
+    "polarFinishedMessage": "极轴校准已完成，若误差偏大，可重新进行三星校准。",
     "polarExitConfirmTitle": "确认退出极轴校准",
     "polarExitConfirmMessage": "确定要退出极轴校准吗？",
     "polarStep2Title": "GOTO 完成后，点击下方按钮开始校准",

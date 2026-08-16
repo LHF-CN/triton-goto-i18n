@@ -12,9 +12,9 @@
       "control": "制御",
       "search": "星図",
       "config": "詳細",
-      "driver": "ドライバー",
-      "firmware": "ファームウェア",
-      "about": "このアプリについて"
+      "driver": "ドライバ",
+      "firmware": "ファーム",
+      "about": "概要"
     },
     "loading": {
       "default": "読み込み中",
@@ -47,6 +47,21 @@
     "telescopeZoomToolbar": "赤道儀プレビューのズーム",
     "telescopeZoomIn": "拡大",
     "telescopeZoomOut": "縮小",
+    "telescopeResetView": "既定の視点に戻す",
+    "deviceError": {
+      "none": "なし",
+      "motorFault": "モーター障害",
+      "horizonLimit": "地平線リミット作動",
+      "limitSensor": "リミットセンサー作動",
+      "decLimit": "赤緯軸リミット作動",
+      "azimuthLimit": "方位軸リミット作動",
+      "raLimit": "赤経軸リミット作動",
+      "meridianLimit": "子午線リミット作動",
+      "altitudeLimit": "高度リミット作動",
+      "weatherInit": "気象初期化エラー",
+      "timeLocationInit": "時刻/位置情報初期化エラー",
+      "nvInit": "NV 初期化エラー"
+    },
     "controlPanel": "コントロールパネル",
     "controlPanelPlaceholder": "コントロールパネル内容エリア",
     "deviceConnect": "デバイス接続",
@@ -103,6 +118,7 @@
     },
     "notify": {
       "newDevice": "新しいデバイスが接続されました",
+      "portSelected": "選択したポート: {{port}}",
       "noPorts": "利用可能なシリアルポートが見つかりません",
       "backendDown": "バックエンドサービスが起動していません",
       "getPortsFailed": "シリアルポートの取得に失敗しました。バックエンドサービスを確認してください",
@@ -612,6 +628,7 @@
     "mountTypeGerman": "ドイツ式赤道儀",
     "mountTypeFork": "フォーク式",
     "mountTypeAltAz": "経緯儀",
+    "mountTypeUnknown": "不明",
     "motorForward": "正転",
     "motorBackward": "逆転",
     "pulseCalculator": "パルス計算機",
@@ -620,6 +637,14 @@
     "commandPlaceholder": "コマンドを入力",
     "responsePlaceholder": "応答",
     "sendBtn": "送信",
+    "restoreDeviceValue": "デバイス値に戻す",
+    "debugTranscript": {
+      "sent": "送信",
+      "response": "応答",
+      "emptyResponse": "(空の応答)",
+      "error": "エラー",
+      "exception": "例外"
+    },
     "startCalc": "計算",
     "notify": {
       "advancedFirmwareNotSupported": "現在のファームウェアは詳細設定と軸パラメータ編集に対応していません。",

@@ -48,6 +48,21 @@
     "telescopeZoomToolbar": "赤道仪预览缩放",
     "telescopeZoomIn": "放大",
     "telescopeZoomOut": "缩小",
+    "telescopeResetView": "恢复默认视角",
+    "deviceError": {
+      "none": "无",
+      "motorFault": "电机故障",
+      "horizonLimit": "触发地平线限位",
+      "limitSensor": "触发限位传感器",
+      "decLimit": "触发赤纬轴限位",
+      "azimuthLimit": "触发方位轴限位",
+      "raLimit": "触发赤经轴限位",
+      "meridianLimit": "触发中天限位",
+      "altitudeLimit": "触发高度角限位",
+      "weatherInit": "气象初始化错误",
+      "timeLocationInit": "时间/位置信息初始化错误",
+      "nvInit": "NV 初始化错误"
+    },
     "controlPanel": "控制面板",
     "controlPanelPlaceholder": "控制面板内容区",
     "deviceConnect": "设备连接",
@@ -104,6 +119,7 @@
     },
     "notify": {
       "newDevice": "有新设备接入",
+      "portSelected": "已选择端口: {{port}}",
       "noPorts": "未找到可用串口",
       "backendDown": "后端服务未启动",
       "getPortsFailed": "获取串口失败，请检查后端服务",
@@ -617,6 +633,7 @@
     "mountTypeGerman": "德式赤道仪",
     "mountTypeFork": "叉式赤道仪",
     "mountTypeAltAz": "地平经纬仪",
+    "mountTypeUnknown": "未知",
     "motorForward": "正转",
     "motorBackward": "反转",
     "pulseCalculator": "脉冲计算助手",
@@ -625,6 +642,14 @@
     "commandPlaceholder": "请输入指令",
     "responsePlaceholder": "回传结果",
     "sendBtn": "发送",
+    "restoreDeviceValue": "恢复为设备值",
+    "debugTranscript": {
+      "sent": "发送",
+      "response": "回传",
+      "emptyResponse": "(空响应)",
+      "error": "错误",
+      "exception": "异常"
+    },
     "startCalc": "开始计算",
     "notify": {
       "advancedFirmwareNotSupported": "当前固件不支持高级配置与轴参数编辑。",

@@ -48,6 +48,21 @@
     "telescopeZoomToolbar": "Mount preview zoom",
     "telescopeZoomIn": "Zoom in",
     "telescopeZoomOut": "Zoom out",
+    "telescopeResetView": "Reset view",
+    "deviceError": {
+      "none": "None",
+      "motorFault": "Motor fault",
+      "horizonLimit": "Horizon limit triggered",
+      "limitSensor": "Limit sensor triggered",
+      "decLimit": "DEC axis limit triggered",
+      "azimuthLimit": "Azimuth axis limit triggered",
+      "raLimit": "RA axis limit triggered",
+      "meridianLimit": "Meridian limit triggered",
+      "altitudeLimit": "Altitude limit triggered",
+      "weatherInit": "Weather initialization error",
+      "timeLocationInit": "Time/location initialization error",
+      "nvInit": "NV initialization error"
+    },
     "controlPanel": "Control Panel",
     "controlPanelPlaceholder": "Control panel content area",
     "deviceConnect": "Mount Connection",
@@ -104,6 +119,7 @@
     },
     "notify": {
       "newDevice": "New mount detected",
+      "portSelected": "Selected port: {{port}}",
       "noPorts": "No serial ports found",
       "backendDown": "Backend service not running",
       "getPortsFailed": "Failed to get ports, check backend service",
@@ -617,6 +633,7 @@
     "mountTypeGerman": "German equatorial",
     "mountTypeFork": "Fork mount",
     "mountTypeAltAz": "Alt-az mount",
+    "mountTypeUnknown": "Unknown",
     "motorForward": "Forward",
     "motorBackward": "Reverse",
     "pulseCalculator": "Pulse Calculator",
@@ -625,6 +642,14 @@
     "commandPlaceholder": "Please enter command",
     "responsePlaceholder": "Response",
     "sendBtn": "Send",
+    "restoreDeviceValue": "Restore device value",
+    "debugTranscript": {
+      "sent": "Sent",
+      "response": "Response",
+      "emptyResponse": "(empty response)",
+      "error": "Error",
+      "exception": "Exception"
+    },
     "startCalc": "Calculate",
     "notify": {
       "advancedFirmwareNotSupported": "Current firmware does not support advanced configuration or axis parameter editing.",

@@ -663,6 +663,7 @@
       "partialSaveMessage": "部分配置保存失败，请重试。",
       "advancedConfigEnabled": "高级配置已启用",
       "advancedConfigDisabled": "高级配置已禁用",
+      "advancedConfigSetFailed": "高级配置设置失败",
       "setFailedWithReason": "设置失败: {{reason}}",
       "commandSendFailedWithReason": "命令发送失败: {{reason}}",
       "commandSendErrorWithReason": "命令发送异常: {{reason}}",

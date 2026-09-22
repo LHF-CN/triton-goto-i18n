@@ -663,6 +663,7 @@
       "partialSaveMessage": "Some settings failed to save. Please try again.",
       "advancedConfigEnabled": "Advanced configuration enabled",
       "advancedConfigDisabled": "Advanced configuration disabled",
+      "advancedConfigSetFailed": "Failed to set advanced configuration",
       "setFailedWithReason": "Settings failed: {{reason}}",
       "commandSendFailedWithReason": "Command failed: {{reason}}",
       "commandSendErrorWithReason": "Command error: {{reason}}",

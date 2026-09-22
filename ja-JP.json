@@ -658,6 +658,7 @@
       "partialSaveMessage": "一部の設定を保存できませんでした。もう一度お試しください。",
       "advancedConfigEnabled": "詳細設定を有効にしました",
       "advancedConfigDisabled": "詳細設定を無効にしました",
+      "advancedConfigSetFailed": "詳細設定の変更に失敗しました",
       "setFailedWithReason": "設定に失敗しました: {{reason}}",
       "commandSendFailedWithReason": "コマンド送信に失敗しました: {{reason}}",
       "commandSendErrorWithReason": "コマンド送信エラー: {{reason}}",

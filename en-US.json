@@ -1,6 +1,7 @@
 {
   "common": {
     "appName": "TRITON GOTO",
+    "updateAvailable": "Update available",
     "titlebar": {
       "minimize": "Minimize",
       "maximize": "Maximize / Restore",

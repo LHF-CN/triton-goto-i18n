@@ -108,6 +108,19 @@
     "noOnstepAscomProcess": "当前无 OnStep ASCOM 驱动相关进程。",
     "releaseAscomSuccess": "OnStep ASCOM 驱动占用已解除。",
     "releaseAscomFailed": "解除 OnStep ASCOM 驱动占用失败",
+    "ascomSetup": {
+      "connectTitle": "连接设备",
+      "connectPrompt": "请在完成连接配置后点击建立连接",
+      "connectedTitle": "连接成功",
+      "connectedPrompt": "请返回 N.I.N.A、PHD2 等使用 ASCOM 的应用中直接连接设备",
+      "switchTitle": "请切换连接模式",
+      "switchPrompt": "需要断开当前连接并切换到 ASCOM (TRITON GOTO Telescope)，是否继续？",
+      "switchFailedTitle": "切换失败",
+      "disconnectFailed": "当前连接未能断开，连接模式保持不变。",
+      "switchFailed": "未能切换连接模式",
+      "statusFailedTitle": "检查失败",
+      "statusFailed": "无法检查连接状态"
+    },
     "placeholder": {
       "port": "选择端口",
       "baudRate": "9600",

@@ -108,6 +108,19 @@
     "noOnstepAscomProcess": "No related OnStep ASCOM driver process is currently running.",
     "releaseAscomSuccess": "The OnStep ASCOM driver has been released.",
     "releaseAscomFailed": "Failed to release the OnStep ASCOM driver",
+    "ascomSetup": {
+      "connectTitle": "Connect Device",
+      "connectPrompt": "Finish configuring the connection, then click Connect.",
+      "connectedTitle": "Connected",
+      "connectedPrompt": "Return to N.I.N.A., PHD2, or another ASCOM application and connect to the device there.",
+      "switchTitle": "Switch Connection Mode",
+      "switchPrompt": "Disconnect the current connection and switch to ASCOM (TRITON GOTO Telescope)?",
+      "switchFailedTitle": "Switch Failed",
+      "disconnectFailed": "Could not disconnect the current connection. The connection mode was not changed.",
+      "switchFailed": "Could not switch connection mode.",
+      "statusFailedTitle": "Status Check Failed",
+      "statusFailed": "Could not check the connection status."
+    },
     "placeholder": {
       "port": "Select port",
       "baudRate": "9600",

@@ -107,6 +107,19 @@
     "noOnstepAscomProcess": "現在、関連する OnStep ASCOM ドライバプロセスはありません。",
     "releaseAscomSuccess": "OnStep ASCOM ドライバの占有を解除しました。",
     "releaseAscomFailed": "OnStep ASCOM ドライバの占有解除に失敗しました",
+    "ascomSetup": {
+      "connectTitle": "デバイスを接続",
+      "connectPrompt": "接続設定を完了してから、接続ボタンをクリックしてください。",
+      "connectedTitle": "接続成功",
+      "connectedPrompt": "N.I.N.A.、PHD2 などの ASCOM 対応アプリに戻り、そこでデバイスに接続してください。",
+      "switchTitle": "接続モードを切り替え",
+      "switchPrompt": "現在の接続を切断し、ASCOM (TRITON GOTO Telescope) に切り替えますか？",
+      "switchFailedTitle": "切り替え失敗",
+      "disconnectFailed": "現在の接続を切断できませんでした。接続モードは変更されていません。",
+      "switchFailed": "接続モードを切り替えられませんでした。",
+      "statusFailedTitle": "状態確認に失敗",
+      "statusFailed": "接続状態を確認できませんでした。"
+    },
     "placeholder": {
       "port": "ポートを選択",
       "baudRate": "9600",

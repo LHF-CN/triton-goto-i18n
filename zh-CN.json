@@ -317,6 +317,7 @@
     "manualRate": "移动速率",
     "guideRate": "导星速率",
     "directionControl": "方位控制",
+    "keyboardDirectionHint": "可使用键盘控制方向",
     "directionNorth": "North",
     "directionEast": "East",
     "directionSouth": "South",

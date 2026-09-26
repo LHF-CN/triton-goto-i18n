@@ -314,6 +314,7 @@
     "manualRate": "移動速度",
     "guideRate": "ガイド速度",
     "directionControl": "方位制御",
+    "keyboardDirectionHint": "キーボードで方向を操作できます",
     "directionNorth": "北",
     "directionEast": "東",
     "directionSouth": "南",

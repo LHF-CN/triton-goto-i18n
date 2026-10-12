@@ -1,9 +1,34 @@
 {
+  "shutter": {
+    "channel": "シャッターチャンネル",
+    "start": "撮影開始",
+    "stop": "撮影停止",
+    "stopping": "停止中",
+    "progress": "完了 {{completed}} / {{total}} 枚",
+    "exposure": "露光  {{seconds}} s",
+    "interval": "間隔  {{seconds}} s",
+    "waiting": "露光時間を取得中",
+    "idle": "停止済み",
+    "readFailed": "シャッター状態を読み取れません",
+    "writeFailed": "シャッター操作に失敗しました。機器の応答がないか、設定値の読み戻しが一致しません。",
+    "invalidParameters": "露出時間は 0.001～3600 秒、間隔は 1～3600 秒、撮影枚数は 1～255 の整数で指定してください。",
+    "resumeTitle": "撮影を再開",
+    "resumeMessage": "停止した撮影の進捗が保存されています。残りの撮影を続けますか、それとも最初から開始しますか？",
+    "resume": "続ける",
+    "restart": "最初から開始"
+  },
   "connectionCompatibility": {
     "title": "互換性について",
     "message": "この機器は標準的な OnStep 機器ではない可能性があります。使用中に互換性の問題が発生する場合があります。"
   },
   "errors": {
+    "SHUTTER_INVALID_CHANNEL": "シャッターチャンネルは 1～8 で指定してください。",
+    "SHUTTER_INVALID_PARAMETERS": "露出時間は 0.001～3600 秒、間隔は 1～3600 秒、撮影枚数は 1～255 の整数で指定してください。",
+    "SHUTTER_CONNECTION_CHANGED": "機器の接続が変更されました。シャッターチャンネルを再検出してください。",
+    "SHUTTER_COMMUNICATION_FAILED": "シャッター通信に失敗しました。機器の接続を確認してください。",
+    "SHUTTER_READ_FAILED": "シャッター状態を読み取れません。",
+    "SHUTTER_WRITE_FAILED": "シャッター操作に失敗しました。機器の応答がないか、設定値の読み戻しが一致しません。",
+    "SHUTTER_UNSUPPORTED_CHANNEL": "このチャンネルは検出済みのシャッターチャンネルではありません。",
     "DEVICE_IDENTIFICATION_NO_RESPONSE": "機器が識別コマンドに応答しませんでした。",
     "ASCOM_INITIALIZATION_FAILED": "ASCOM の初期化に失敗しました：{{detail}}",
     "ASCOM_CONNECTION_UNAVAILABLE": "ASCOM で接続できません。ASCOM Platform と対応する OnStep または TRITON GOTO ドライバーをインストールしてください。詳細：{{detail}}",

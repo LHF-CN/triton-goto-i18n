@@ -1,9 +1,34 @@
 {
+  "shutter": {
+    "channel": "快门通道",
+    "start": "开始曝光",
+    "stop": "停止曝光",
+    "stopping": "正在停止",
+    "progress": "已完成 {{completed}} / {{total}} 张",
+    "exposure": "曝光  {{seconds}} s",
+    "interval": "间隔  {{seconds}} s",
+    "waiting": "曝光时间获取中",
+    "idle": "已停止",
+    "readFailed": "无法读取快门状态",
+    "writeFailed": "快门操作失败：设备未确认指令或参数回读不一致。",
+    "invalidParameters": "曝光时间应为 0.001–3600 秒，间隔为 1–3600 秒，张数为 1–255 的整数。",
+    "resumeTitle": "恢复拍摄",
+    "resumeMessage": "发现上次停止的拍摄进度。继续剩余拍摄，还是重新开始？",
+    "resume": "继续拍摄",
+    "restart": "重新开始"
+  },
   "connectionCompatibility": {
     "title": "兼容性提示",
     "message": "此设备可能不是通用型 OnStep，使用中可能存在一定的兼容性问题。"
   },
   "errors": {
+    "SHUTTER_INVALID_CHANNEL": "快门通道必须为 1–8。",
+    "SHUTTER_INVALID_PARAMETERS": "曝光时间应为 0.001–3600 秒，间隔为 1–3600 秒，张数为 1–255 的整数。",
+    "SHUTTER_CONNECTION_CHANGED": "设备连接已变更，请重新发现快门通道。",
+    "SHUTTER_COMMUNICATION_FAILED": "快门通讯失败，请检查设备连接。",
+    "SHUTTER_READ_FAILED": "无法读取快门状态。",
+    "SHUTTER_WRITE_FAILED": "快门操作失败：设备未确认指令或参数回读不一致。",
+    "SHUTTER_UNSUPPORTED_CHANNEL": "此通道不是已发现的快门通道。",
     "DEVICE_IDENTIFICATION_NO_RESPONSE": "设备未响应识别指令。",
     "ASCOM_INITIALIZATION_FAILED": "ASCOM 初始化失败: {{detail}}",
     "ASCOM_CONNECTION_UNAVAILABLE": "无法使用 ASCOM 模式连接，请安装 ASCOM Platform 及对应驱动（OnStep 或 TRITON GOTO）。错误信息：{{detail}}",

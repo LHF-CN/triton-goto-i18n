@@ -213,6 +213,21 @@
     "controlPanel": "Control Panel",
     "controlPanelPlaceholder": "Control panel content area",
     "deviceConnect": "Mount Connection",
+    "tryTritonGotoAscom": "Try TRITON GOTO in NINA / PHD2 / SharpCap",
+    "ascomGuide": {
+      "title": "Use TRITON GOTO in Other Applications",
+      "demoDescription": "Connection mode demonstration: click ASCOM (TRITON GOTO Telescope) to show the selection in the field above.",
+      "intro": "You can now use TRITON GOTO in NINA / PHD2 / SharpCap. Get started in just a few steps:",
+      "platform": "Install ASCOM Platform",
+      "driver": "Install the TRITON GOTO ASCOM driver",
+      "connect": "Set this application's connection mode to ASCOM(TRITON GOTO Telescope), then select TRITON GOTO Telescope in other applications and connect.",
+      "checking": "Checking",
+      "installed": "Installed",
+      "download": "Download",
+      "downloading": "Downloading",
+      "recheck": "Check again",
+      "downloadUnavailable": "This installer is not yet available in the download catalog. Please try again later."
+    },
     "ascomExit": {
       "failedTitle": "Unable to exit",
       "failed": "Unable to complete the ASCOM exit operation. TRITON GOTO remains open. Some connections may already have been disconnected. Please check the connections and try again, or choose Exit only.",

@@ -212,6 +212,21 @@
     "controlPanel": "コントロールパネル",
     "controlPanelPlaceholder": "コントロールパネル内容エリア",
     "deviceConnect": "デバイス接続",
+    "tryTritonGotoAscom": "NINA / PHD2 / SharpCap で TRITON GOTO を使ってみる",
+    "ascomGuide": {
+      "title": "他のアプリで TRITON GOTO を使用",
+      "demoDescription": "接続モードの選択例：ASCOM (TRITON GOTO Telescope) をクリックすると、上の選択欄に選択結果が表示されます。",
+      "intro": "NINA / PHD2 / SharpCap で TRITON GOTO を使用できます。次の手順で簡単に接続できます：",
+      "platform": "ASCOM Platform をインストール",
+      "driver": "TRITON GOTO ASCOM ドライバーをインストール",
+      "connect": "本アプリの接続モードを ASCOM(TRITON GOTO Telescope) に変更し、他のアプリで TRITON GOTO Telescope を選択して接続します。",
+      "checking": "確認中",
+      "installed": "インストール済み",
+      "download": "ダウンロード",
+      "downloading": "ダウンロード中",
+      "recheck": "再確認",
+      "downloadUnavailable": "このインストーラーはダウンロード一覧にまだ公開されていません。後でもう一度お試しください。"
+    },
     "ascomExit": {
       "failedTitle": "終了できませんでした",
       "failed": "ASCOM の終了処理を完了できないため、TRITON GOTO は開いたままです。一部の接続はすでに切断されている可能性があります。接続を確認して再試行するか、「終了のみ」を選択してください。",

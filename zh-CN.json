@@ -213,6 +213,21 @@
     "controlPanel": "控制面板",
     "controlPanelPlaceholder": "控制面板内容区",
     "deviceConnect": "设备连接",
+    "tryTritonGotoAscom": "尝试在NINA / PHD2 / SharpCap 中使用 TRITON GOTO",
+    "ascomGuide": {
+      "title": "在其他应用中使用 TRITON GOTO",
+      "demoDescription": "连接模式选择演示：点击 ASCOM (TRITON GOTO Telescope)，上方选择器显示选中结果。",
+      "intro": "现在，你可以在 NINA / PHD2 / SharpCap 中使用 TRITON GOTO，只需几步便可轻松完成：",
+      "platform": "安装 ASCOM 平台",
+      "driver": "安装 TRITON GOTO ASCOM 驱动",
+      "connect": "将本应用中的连接模式改为 ASCOM(TRITON GOTO Telescope)，并在其他应用中选择 TRITON GOTO Telescope，进行连接",
+      "checking": "检查中",
+      "installed": "已安装",
+      "download": "下载",
+      "downloading": "下载中",
+      "recheck": "重新检查",
+      "downloadUnavailable": "下载目录中尚无此安装包，请稍后重试。"
+    },
     "ascomExit": {
       "failedTitle": "退出失败",
       "failed": "无法完成 ASCOM 退出操作，TRITON GOTO 将保持打开。部分连接可能已断开。请检查连接后重试，或选择“仅退出”。",

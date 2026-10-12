@@ -22,6 +22,9 @@
     "message": "この機器は標準的な OnStep 機器ではない可能性があります。使用中に互換性の問題が発生する場合があります。"
   },
   "errors": {
+    "ASCOM_PLATFORM_MISSING": "ASCOM プラットフォームが未インストール、または読み込めません。",
+    "ASCOM_DRIVER_MISSING": "この ASCOM ドライバーがインストールされていません。対応するドライバーをインストールしてください。",
+    "ASCOM_DRIVER_CHECK_FAILED": "この ASCOM ドライバーを確認または読み込めません。再試行するか、再インストールしてください。",
     "TRITONGOTO_ASCOM_DRIVER_TOO_OLD": "TRITON GOTO ASCOM ドライバーのバージョンが本アプリの最低互換バージョンを下回っています。最新版のドライバーをインストールしてください。",
     "TRITONGOTO_ASCOM_DRIVER_VERSION_UNAVAILABLE": "TRITON GOTO ASCOM ドライバーのバージョンを確認できません。最新版のドライバーをインストールして再試行してください。",
     "SERIAL_ACCESS_DENIED": "シリアルポートへのアクセスが拒否されました。他のアプリが使用中か、権限が不足している可能性があります。",
@@ -183,6 +186,10 @@
     }
   },
   "connection": {
+    "ascomRetry": "再試行",
+    "ascomGoInstall": "インストールへ",
+    "ascomVersionTooOld": "ドライバーのバージョン {{version}} は最低互換バージョン {{minimum}} より古いです。最新版をインストールしてください。",
+    "ascomChecking": "ASCOM プラットフォームとドライバーを確認中です。しばらくお待ちください。",
     "serialOccupancyTitle": "シリアルポートの使用状況",
     "serialOccupancyConfirmed": "TRITON GOTO ASCOM ドライバーはシリアルポート {{port}} を使用して接続しています。直接接続モードを使用すると、ドライバープロセスが終了し、それに接続しているすべてのアプリが切断されます。続行しますか？",
     "serialOccupancyPossible": "シリアルポート {{port}} へのアクセスが拒否されました。ASCOM ドライバープロセスが検出されましたが、このポートの使用は確認できませんでした。解除すると下記のドライバープロセスが終了し、それらを通じて接続しているすべてのアプリが切断されます。続行しますか？",

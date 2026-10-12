@@ -22,6 +22,9 @@
     "message": "This device may not be a standard OnStep device. Compatibility issues may occur during use."
   },
   "errors": {
+    "ASCOM_PLATFORM_MISSING": "ASCOM Platform is not installed or cannot be loaded.",
+    "ASCOM_DRIVER_MISSING": "This ASCOM driver is not installed. Please install the corresponding driver.",
+    "ASCOM_DRIVER_CHECK_FAILED": "Unable to check or load this ASCOM driver. Please try again or reinstall it.",
     "TRITONGOTO_ASCOM_DRIVER_TOO_OLD": "The TRITON GOTO ASCOM driver version is below this application's minimum compatible version. Please install the latest driver.",
     "TRITONGOTO_ASCOM_DRIVER_VERSION_UNAVAILABLE": "Unable to verify the TRITON GOTO ASCOM driver version. Please install the latest driver and try again.",
     "SERIAL_ACCESS_DENIED": "Serial port access was denied. The port may be in use or permission may be insufficient.",
@@ -184,6 +187,10 @@
   },
 
   "connection": {
+    "ascomRetry": "Retry",
+    "ascomGoInstall": "Go to installation",
+    "ascomVersionTooOld": "Driver version {{version}} is below the minimum compatible version {{minimum}}. Please install the latest driver.",
+    "ascomChecking": "Checking ASCOM Platform and drivers. Please wait.",
     "serialOccupancyTitle": "Serial Port Occupancy",
     "serialOccupancyConfirmed": "The TRITON GOTO ASCOM driver is connected through serial port {{port}}. Using direct connection mode will close the driver process and disconnect all applications connected to it. Continue?",
     "serialOccupancyPossible": "Access to serial port {{port}} was denied. ASCOM driver processes were detected, but their use of this port could not be confirmed. Releasing the port will close the driver processes listed below and disconnect all applications connected through them. Continue?",

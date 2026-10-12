@@ -22,6 +22,9 @@
     "message": "此设备可能不是通用型 OnStep，使用中可能存在一定的兼容性问题。"
   },
   "errors": {
+    "ASCOM_PLATFORM_MISSING": "未安装 ASCOM 平台，或平台无法加载。",
+    "ASCOM_DRIVER_MISSING": "未安装此 ASCOM 驱动，请先安装对应驱动。",
+    "ASCOM_DRIVER_CHECK_FAILED": "无法检查或加载此 ASCOM 驱动，请重试或重新安装。",
     "TRITONGOTO_ASCOM_DRIVER_TOO_OLD": "当前 TRITON GOTO ASCOM 驱动的版本低于本应用最低兼容的版本，请安装最新版的驱动。",
     "TRITONGOTO_ASCOM_DRIVER_VERSION_UNAVAILABLE": "无法确认 TRITON GOTO ASCOM 驱动版本，请安装最新版驱动后重试。",
     "SERIAL_ACCESS_DENIED": "串口访问被拒绝，可能被其他应用占用或权限不足。",
@@ -184,6 +187,10 @@
   },
 
   "connection": {
+    "ascomRetry": "重试",
+    "ascomGoInstall": "去安装",
+    "ascomVersionTooOld": "驱动版本 {{version}} 低于最低兼容版本 {{minimum}}，请安装最新版驱动。",
+    "ascomChecking": "正在检查 ASCOM 平台和驱动，请稍候。",
     "serialOccupancyTitle": "串口占用",
     "serialOccupancyConfirmed": "TRITON GOTO ASCOM 驱动正在使用串口 {{port}} 进行连接。使用直连模式将关闭驱动进程，并断开所有与其建立连接的应用。是否继续？",
     "serialOccupancyPossible": "串口 {{port}} 访问被拒绝，并检测到 ASCOM 驱动进程，可能存在占用，但无法确认它们正在使用此串口。解除占用将关闭下方列出的驱动进程，并断开所有应用通过这些进程建立的连接。是否继续？",

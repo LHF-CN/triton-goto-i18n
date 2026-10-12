@@ -1,5 +1,10 @@
 {
+  "connectionCompatibility": {
+    "title": "兼容性提示",
+    "message": "此设备可能不是通用型 OnStep，使用中可能存在一定的兼容性问题。"
+  },
   "errors": {
+    "DEVICE_IDENTIFICATION_NO_RESPONSE": "设备未响应识别指令。",
     "ASCOM_INITIALIZATION_FAILED": "ASCOM 初始化失败: {{detail}}",
     "ASCOM_CONNECTION_UNAVAILABLE": "无法使用 ASCOM 模式连接，请安装 ASCOM Platform 及对应驱动（OnStep 或 TRITON GOTO）。错误信息：{{detail}}",
     "ONSTEP_IDENTIFICATION_FAILED": "设备验证失败：未识别为 OnStep 设备 (返回: {{detail}}",

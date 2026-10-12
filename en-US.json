@@ -1,5 +1,10 @@
 {
+  "connectionCompatibility": {
+    "title": "Compatibility Notice",
+    "message": "This device may not be a standard OnStep device. Compatibility issues may occur during use."
+  },
   "errors": {
+    "DEVICE_IDENTIFICATION_NO_RESPONSE": "Device did not respond to identification commands.",
     "ASCOM_INITIALIZATION_FAILED": "ASCOM initialization failed: {{detail}}",
     "ASCOM_CONNECTION_UNAVAILABLE": "Cannot connect through ASCOM. Install ASCOM Platform and the matching OnStep or TRITON GOTO driver. Details: {{detail}}",
     "ONSTEP_IDENTIFICATION_FAILED": "Device verification failed: not an OnStep device. Reply: {{detail}}",

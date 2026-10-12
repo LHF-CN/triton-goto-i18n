@@ -1,5 +1,10 @@
 {
+  "connectionCompatibility": {
+    "title": "互換性について",
+    "message": "この機器は標準的な OnStep 機器ではない可能性があります。使用中に互換性の問題が発生する場合があります。"
+  },
   "errors": {
+    "DEVICE_IDENTIFICATION_NO_RESPONSE": "機器が識別コマンドに応答しませんでした。",
     "ASCOM_INITIALIZATION_FAILED": "ASCOM の初期化に失敗しました：{{detail}}",
     "ASCOM_CONNECTION_UNAVAILABLE": "ASCOM で接続できません。ASCOM Platform と対応する OnStep または TRITON GOTO ドライバーをインストールしてください。詳細：{{detail}}",
     "ONSTEP_IDENTIFICATION_FAILED": "機器を OnStep として認識できませんでした。応答：{{detail}}",

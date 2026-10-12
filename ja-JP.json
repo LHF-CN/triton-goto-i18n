@@ -22,6 +22,8 @@
     "message": "この機器は標準的な OnStep 機器ではない可能性があります。使用中に互換性の問題が発生する場合があります。"
   },
   "errors": {
+    "TRITONGOTO_ASCOM_DRIVER_TOO_OLD": "TRITON GOTO ASCOM ドライバーのバージョンが本アプリの最低互換バージョンを下回っています。最新版のドライバーをインストールしてください。",
+    "TRITONGOTO_ASCOM_DRIVER_VERSION_UNAVAILABLE": "TRITON GOTO ASCOM ドライバーのバージョンを確認できません。最新版のドライバーをインストールして再試行してください。",
     "SERIAL_ACCESS_DENIED": "シリアルポートへのアクセスが拒否されました。他のアプリが使用中か、権限が不足している可能性があります。",
     "SHUTTER_INVALID_CHANNEL": "シャッターチャンネルは 1～8 で指定してください。",
     "SHUTTER_INVALID_PARAMETERS": "露出時間は 0.001～3600 秒、間隔は 1～3600 秒、撮影枚数は 1～255 の整数で指定してください。",

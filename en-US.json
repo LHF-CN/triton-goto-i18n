@@ -22,6 +22,8 @@
     "message": "This device may not be a standard OnStep device. Compatibility issues may occur during use."
   },
   "errors": {
+    "TRITONGOTO_ASCOM_DRIVER_TOO_OLD": "The TRITON GOTO ASCOM driver version is below this application's minimum compatible version. Please install the latest driver.",
+    "TRITONGOTO_ASCOM_DRIVER_VERSION_UNAVAILABLE": "Unable to verify the TRITON GOTO ASCOM driver version. Please install the latest driver and try again.",
     "SERIAL_ACCESS_DENIED": "Serial port access was denied. The port may be in use or permission may be insufficient.",
     "SHUTTER_INVALID_CHANNEL": "Shutter channel must be between 1 and 8.",
     "SHUTTER_INVALID_PARAMETERS": "Exposure must be 0.001–3600 seconds, interval 1–3600 seconds, and image count an integer from 1 to 255.",

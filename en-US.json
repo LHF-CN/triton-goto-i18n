@@ -22,6 +22,7 @@
     "message": "This device may not be a standard OnStep device. Compatibility issues may occur during use."
   },
   "errors": {
+    "SERIAL_ACCESS_DENIED": "Serial port access was denied. The port may be in use or permission may be insufficient.",
     "SHUTTER_INVALID_CHANNEL": "Shutter channel must be between 1 and 8.",
     "SHUTTER_INVALID_PARAMETERS": "Exposure must be 0.001–3600 seconds, interval 1–3600 seconds, and image count an integer from 1 to 255.",
     "SHUTTER_CONNECTION_CHANGED": "The device connection changed. Discover shutter channels again.",
@@ -181,6 +182,11 @@
   },
 
   "connection": {
+    "serialOccupancyTitle": "Serial Port Occupancy",
+    "serialOccupancyConfirmed": "The TRITON GOTO ASCOM driver is connected through serial port {{port}}. Using direct connection mode will close the driver process and disconnect all applications connected to it. Continue?",
+    "serialOccupancyPossible": "Access to serial port {{port}} was denied. ASCOM driver processes were detected, but their use of this port could not be confirmed. Releasing the port will close the driver processes listed below and disconnect all applications connected through them. Continue?",
+    "serialOccupancyDrivers": "Driver processes to close",
+    "serialOccupancyChanged": "The driver connection changed. Check the port and try again.",
     "deviceInfo": "Mount Info",
     "currentPointing": "Current Pointing",
     "geographicInfo": "Geographic Info",

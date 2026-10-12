@@ -22,6 +22,7 @@
     "message": "此设备可能不是通用型 OnStep，使用中可能存在一定的兼容性问题。"
   },
   "errors": {
+    "SERIAL_ACCESS_DENIED": "串口访问被拒绝，可能被其他应用占用或权限不足。",
     "SHUTTER_INVALID_CHANNEL": "快门通道必须为 1–8。",
     "SHUTTER_INVALID_PARAMETERS": "曝光时间应为 0.001–3600 秒，间隔为 1–3600 秒，张数为 1–255 的整数。",
     "SHUTTER_CONNECTION_CHANGED": "设备连接已变更，请重新发现快门通道。",
@@ -181,6 +182,11 @@
   },
 
   "connection": {
+    "serialOccupancyTitle": "串口占用",
+    "serialOccupancyConfirmed": "TRITON GOTO ASCOM 驱动正在使用串口 {{port}} 进行连接。使用直连模式将关闭驱动进程，并断开所有与其建立连接的应用。是否继续？",
+    "serialOccupancyPossible": "串口 {{port}} 访问被拒绝，并检测到 ASCOM 驱动进程，可能存在占用，但无法确认它们正在使用此串口。解除占用将关闭下方列出的驱动进程，并断开所有应用通过这些进程建立的连接。是否继续？",
+    "serialOccupancyDrivers": "将关闭的驱动进程",
+    "serialOccupancyChanged": "驱动连接状态已变更，请检查串口后重试。",
     "deviceInfo": "设备信息",
     "currentPointing": "当前指向",
     "geographicInfo": "地理信息",

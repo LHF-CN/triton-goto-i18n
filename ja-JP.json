@@ -126,6 +126,8 @@
     "SYNC_NOT_ALLOWED": "機器の現在の状態では同期できません。",
     "SYNC_NO_ACK": "機器が同期を確認しませんでした。",
     "GOTO_NO_ACK": "機器が GOTO コマンドを受け入れませんでした。",
+    "GOTO_NO_RESPONSE": "機器から応答がありません。",
+    "GOTO_INVALID_RESPONSE": "機器からの応答が無効です。",
     "SYNC_COORDINATES_UNAVAILABLE": "現在の座標を取得できないため、同期を中止しました。",
     "ASCOM_PLATFORM_UNAVAILABLE": "ASCOM Platform が未インストールか、Profile を読み込めません。",
     "ASCOM_DEVICE_TYPE_UNAVAILABLE": "ASCOM Profile に DeviceType プロパティがありません。",
@@ -764,7 +766,9 @@
         "hardwareFault": "架台のハードウェア障害",
         "inMotion": "架台が動作中です",
         "deviceError": "架台が不明なエラーを返しました",
-        "noAck": "架台が GOTO コマンドを受け付けませんでした"
+        "noAck": "架台が GOTO コマンドを受け付けませんでした",
+        "noResponse": "機器から応答がありません",
+        "invalidResponse": "機器からの応答が無効です"
       },
       "syncSuccess": "位置が同期されました",
       "syncSuccessWithName": "位置を同期しました：{{name}}",

@@ -126,6 +126,8 @@
     "SYNC_NOT_ALLOWED": "Synchronization is not allowed in the current device state.",
     "SYNC_NO_ACK": "Telescope did not confirm synchronization.",
     "GOTO_NO_ACK": "Telescope rejected the GOTO command.",
+    "GOTO_NO_RESPONSE": "Device did not respond.",
+    "GOTO_INVALID_RESPONSE": "Device returned an invalid response.",
     "SYNC_COORDINATES_UNAVAILABLE": "Current coordinates could not be read; synchronization was canceled.",
     "ASCOM_PLATFORM_UNAVAILABLE": "ASCOM Platform is not installed or its Profile cannot be loaded.",
     "ASCOM_DEVICE_TYPE_UNAVAILABLE": "ASCOM Profile does not provide DeviceType.",
@@ -768,7 +770,9 @@
         "hardwareFault": "Mount hardware fault",
         "inMotion": "Mount is in motion",
         "deviceError": "Mount returned an unknown error",
-        "noAck": "Mount did not accept GoTo command"
+        "noAck": "Mount did not accept GoTo command",
+        "noResponse": "Device did not respond",
+        "invalidResponse": "Device returned an invalid response"
       },
       "syncSuccess": "Position synced",
       "syncSuccessWithName": "Position synced: {{name}}",

@@ -126,6 +126,8 @@
     "SYNC_NOT_ALLOWED": "设备当前状态不允许同步（可能已停放或正在 GOTO）",
     "SYNC_NO_ACK": "设备未确认同步",
     "GOTO_NO_ACK": "设备未接受 GOTO 指令",
+    "GOTO_NO_RESPONSE": "设备无响应",
+    "GOTO_INVALID_RESPONSE": "设备回传无效",
     "SYNC_COORDINATES_UNAVAILABLE": "无法读取或解析当前坐标，同步已取消。",
     "ASCOM_PLATFORM_UNAVAILABLE": "ASCOM Platform 未安装或无法加载 Profile。",
     "ASCOM_DEVICE_TYPE_UNAVAILABLE": "ASCOM Profile 缺少 DeviceType 属性。",
@@ -768,7 +770,9 @@
         "hardwareFault": "设备硬件故障",
         "inMotion": "设备正在运动",
         "deviceError": "设备返回未知错误",
-        "noAck": "设备未接受 GOTO 指令"
+        "noAck": "设备未接受 GOTO 指令",
+        "noResponse": "设备无响应",
+        "invalidResponse": "设备回传无效"
       },
       "syncSuccess": "位置已同步",
       "syncSuccessWithName": "位置已同步：{{name}}",

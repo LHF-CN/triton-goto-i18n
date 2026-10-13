@@ -240,6 +240,8 @@
       "downloadUnavailable": "下载目录中尚无此安装包，请稍后重试。"
     },
     "ascomExit": {
+      "backendBusyTitle": "暂时无法退出",
+      "backendBusy": "后端正在刷写或擦除固件，或无法确认任务状态。请等待任务完成后再试。",
       "failedTitle": "退出失败",
       "failed": "无法完成 ASCOM 退出操作，TRITON GOTO 将保持打开。部分连接可能已断开。请检查连接后重试，或选择“仅退出”。",
       "title": "关闭 TRITON GOTO",

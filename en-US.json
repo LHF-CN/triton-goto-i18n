@@ -240,6 +240,8 @@
       "downloadUnavailable": "This installer is not yet available in the download catalog. Please try again later."
     },
     "ascomExit": {
+      "backendBusyTitle": "Unable to exit yet",
+      "backendBusy": "Firmware flashing or erasing is active, or its status could not be verified. Wait for the task to finish and try again.",
       "failedTitle": "Unable to exit",
       "failed": "Unable to complete the ASCOM exit operation. TRITON GOTO remains open. Some connections may already have been disconnected. Please check the connections and try again, or choose Exit only.",
       "title": "Close TRITON GOTO",
